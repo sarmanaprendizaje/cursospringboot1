@@ -1,0 +1,2 @@
+NotEmpty=El campo es requerido {0} {1}
+NotEmpty.usuario.nombre=El campo nombre es requerido

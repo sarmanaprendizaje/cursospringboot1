@@ -1,0 +1,16 @@
+package es.sarman.learnspring.springbootdi;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import es.sarman.learnspring.springbootdi.models.service.IMiServicio;
+import es.sarman.learnspring.springbootdi.models.service.MiServicio;
+
+@Configuration
+public class AppConfig {
+
+	@Bean("MiServicioSimple")
+	public IMiServicio registrarMiServicio() {
+		return new MiServicio();
+	}
+}

@@ -1,0 +1,42 @@
+package es.sarman.learnspring.springbootweb.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import es.sarman.learnspring.springbootweb.models.Usuario;
+
+@Controller
+@RequestMapping("/app")
+public class IndexController {
+
+	@GetMapping("/index")
+	public String index(Model model) {
+		model.addAttribute("titulo", "Hola spring framework");
+		return "index";
+	}
+	
+	@RequestMapping("/perfil")
+	public String perfil(Model model) {
+		Usuario usuario = new Usuario();
+		usuario.setNombre("Andrés");
+		usuario.setApellido("Guzmán");
+		// usuario.setEmail("andres@email.com");
+		model.addAttribute("usuario", usuario);
+		model.addAttribute("titulo", "Perfil usuario");
+		return "perfil";
+	}
+	
+	@RequestMapping("/listar")
+	public String listar(Model model) {
+		List<Usuario> usuarios = new ArrayList<>();
+		model.addAttribute("usuarios", usuarios);
+		model.addAttribute("titulo", "Lista de usuarios");
+		return "listar";
+	}
+	
+}

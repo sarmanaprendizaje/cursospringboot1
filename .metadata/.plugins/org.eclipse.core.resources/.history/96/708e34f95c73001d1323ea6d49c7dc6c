@@ -1,0 +1,5 @@
+package es.sarman.learnspring.springbootdi;
+
+public class AppConfig {
+
+}

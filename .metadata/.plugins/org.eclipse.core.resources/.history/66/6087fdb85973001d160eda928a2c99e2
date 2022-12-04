@@ -1,0 +1,13 @@
+package es.sarman.learnspring.springbootdi.models.service;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MiServicioComplejo implements IMiServicio {
+	
+	@Override
+	public String operacion() {
+		return "ejecutando proceso improtante...";
+	}
+	
+}

@@ -1,0 +1,8 @@
+package es.sarman.learnspring.springbootweb.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class IndexController {
+
+}

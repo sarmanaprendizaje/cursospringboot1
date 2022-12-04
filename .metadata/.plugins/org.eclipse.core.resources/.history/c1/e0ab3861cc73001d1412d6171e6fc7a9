@@ -1,0 +1,5 @@
+package es.sarman.learnspring.springbootform.Validator;
+
+public class UsuarioValidador {
+
+}

@@ -1,0 +1,5 @@
+package es.sarman.learnspring.springbootdi.controllers;
+
+public class IndexController {
+
+}

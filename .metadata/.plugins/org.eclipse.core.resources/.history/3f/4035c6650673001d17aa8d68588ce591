@@ -1,0 +1,5 @@
+package es.sarman.learnspring.springbootweb.controller;
+
+public class HomeController {
+
+}

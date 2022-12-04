@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<title th:text="${titulo}">Hola spring</title>
+</head>
+<body>
+
+	<h1 th:text="${titulo}">Hola spring</h1>
+	<div>No hay usuarios en la lista</div>
+
+</body>
+</html>

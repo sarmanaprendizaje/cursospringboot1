@@ -1,0 +1,13 @@
+package es.sarman.learnspring.springbootdi.models.service;
+
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+@Service
+public class MiServicio {
+	
+	public String operacion() {
+		return "ejecutando proceso improtante...";
+	}
+	
+}

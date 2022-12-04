@@ -1,0 +1,5 @@
+package es.sarman.learnspring.springbootweb.models;
+
+public class Usuario {
+
+}

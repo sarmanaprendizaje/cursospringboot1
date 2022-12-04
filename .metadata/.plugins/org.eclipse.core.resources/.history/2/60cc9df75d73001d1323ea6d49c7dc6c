@@ -1,0 +1,5 @@
+package es.sarman.learnspring.springbootdi.models.domain;
+
+public class Factura {
+
+}

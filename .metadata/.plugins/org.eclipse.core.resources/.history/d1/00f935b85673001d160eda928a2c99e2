@@ -1,0 +1,9 @@
+package es.sarman.learnspring.springbootdi.models.service;
+
+public class MiServicio {
+	
+	public String operacion() {
+		return "ejecutando proceso improtante...";
+	}
+	
+}
